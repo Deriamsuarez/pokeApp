@@ -1,0 +1,85 @@
+#root {
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.3em;
+}
+
+.PokemonContainer{
+  display: flex;
+  width: 300px;
+}
+
+.cardPokemon{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 270px;
+
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer > img{
+  width: 130px;
+  height: 130px;
+}
+
+.infoContainer{
+
+  justify-content: center;
+
+}
+
+.glassEffect{
+  background: #fafafa40;
+  backdrop-filter: blur(0.9);
+  -webkit-backdrop-filter: blur(0.9rem);
+  }
+  
+  .infoContainer > h2{
+    font-weight: 600;
+  }
+
+  .info{
+    width: calc(300px - 4em);
+    height: 150px;
+    /* border: 1px red dashed; */
+    
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  ul > li{
+    list-style: none;
+  }
+
+  h3, ul{
+margin: 0;  }
